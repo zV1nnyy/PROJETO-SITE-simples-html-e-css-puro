@@ -13,4 +13,4 @@ Projeto feito com HTML e CSS (projeto basico).
 
 
 ## 📌 Autor
-Vinicius
+Vinicius Mariano
