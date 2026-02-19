@@ -1,0 +1,117 @@
+@font-face {
+    font-family: cs;
+    src: url(Fontes/cs_regular.ttf);
+}
+    @font-face {
+        font-family: osvaldo;
+        src: url(Fontes/Oswald-Bold.ttf);
+    }
+
+
+    :root {
+
+
+    }
+.titulos {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #aaa5a5;
+    text-align: center;
+    font-family: cs;
+    border: 2px solid black;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    
+    
+    
+    }
+    body {
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #0D0D0D, #595959);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .linksmenu {
+        font-size: 20px;
+        font-style: none;
+        text-decoration: none;
+        margin-right: 20px;
+        color: black;
+        font-family: cs;
+        
+        
+    }
+    a:hover {
+        background-color: #BDAFA4;
+        border-radius: 5px;
+        padding: 3px;
+        box-shadow: 10px 10px 10px black;
+        }
+        img {
+            position: relative;
+            top: 7px;
+            left: -10px;
+        }
+        .subtitulo {
+            text-align: left;
+            font-family: cs;
+            font-size: 40px;
+            color: #BDAFA4;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.233) ,rgba(0, 0, 0, 0.534));
+            margin-left: 10px;
+            text-indent: 10px;
+        }
+        .textos {
+            font-family: osvaldo;
+            text-align: auto;
+            color: white;
+            margin: 50px;
+            text-align: center;
+            text-shadow: 1px 1px 10px black;
+             }
+             .imagem {
+                text-align: center; 
+                display: block;
+                margin: auto
+             }
+             .video {
+                text-align: center;
+                
+             }
+            .lista {
+        font-family: osvaldo;
+        text-align: center;
+        padding: 4px;
+}
+
+.lista li {
+    list-style: none;
+    background-image: linear-gradient(black, grey);
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.lista li a {
+    display: block;
+    padding: 6px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+        
+           
+           footer {
+            text-align: center;
+            font-family: osvaldo;
+            background-color: #595959;
+            
+
+           }
+           li {
+            text-decoration: none;
+           }
+            
+             
